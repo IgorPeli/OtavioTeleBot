@@ -1,1 +1,1 @@
-# OtavioTeleBot
+# Emails Repetidos dão Erros.
