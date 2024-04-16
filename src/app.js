@@ -2,7 +2,13 @@ const TelegramBot = require("node-telegram-bot-api");
 require("dotenv").config();
 const { PrismaClient } = require("@prisma/client");
 
-const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: true });
+if(!process.env.TELEGRAM_TOKEN){
+    console.log("Erro com seu token. Por favor forneça a váriavel de ambiente TELEGRAM_TOKEN");
+    process.exit(1);
+}
+
+const token = process.env.TELEGRAM_TOKEN;
+const bot = new TelegramBot(token, {polling: true});
 const prisma = new PrismaClient();
 
 // Função para verificar se está dentro do horário de funcionamento
