@@ -4,7 +4,6 @@ const { PrismaClient } = require("@prisma/client");
 
 if(!process.env.TELEGRAM_TOKEN){
     console.log("Erro com seu token. Por favor forneça a váriavel de ambiente TELEGRAM_TOKEN");
-    process.exit(1);
 }
 
 const token = process.env.TELEGRAM_TOKEN;
