@@ -4,7 +4,7 @@
 npm install no terminal
 ```
 
-Isso instalará todas as dependências necessárias, incluindo os `node_modules` e `package-lock.json`.
+Isso instalará todas as dependências necessárias, incluindo os `node_modules`.
 
 ## Variáveis de Ambiente
 
