@@ -1,7 +1,8 @@
 # Instalação
 
+## No terminal
 ```
-npm install no terminal
+npm install
 ```
 
 Isso instalará todas as dependências necessárias, incluindo os `node_modules`.
