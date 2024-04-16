@@ -1,6 +1,6 @@
 # Instalação
 
-## No terminal
+## No terminal  
 ```
 npm install
 ```
