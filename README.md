@@ -6,7 +6,7 @@ npm install
 ```
 Isso instalará todas as dependências necessárias, incluindo os `node_modules`.
 
-### Caso necessário da: 
+### Caso necessário: 
 ```
 npm install @prisma/client
 ```
