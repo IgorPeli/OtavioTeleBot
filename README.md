@@ -4,8 +4,16 @@
 ```
 npm install
 ```
-
 Isso instalará todas as dependências necessárias, incluindo os `node_modules`.
+
+### Caso necessário da: 
+```
+npm install @prisma/client
+```
+### E depois
+```
+npx prisma generate
+```
 
 ## Variáveis de Ambiente
 
