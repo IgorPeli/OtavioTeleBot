@@ -25,8 +25,3 @@ TELEGRAM_TOKEN="193138219"
 
 Após definir as variáveis de ambiente no arquivo `.env`, seu projeto estará pronto para ser executado.  
 
-E crie uma na pasta prisma contendo:
-
-```
-DATABASE_URL="file:./dev.db"
-```
